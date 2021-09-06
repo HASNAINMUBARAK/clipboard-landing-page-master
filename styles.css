@@ -1,0 +1,51 @@
+.container {
+font-family: monospace;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+.buttons {
+  margin: 20px;
+}
+p {
+  opacity: 50%;
+}
+h2 {
+  margin-top: 40px;
+}
+.second {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.r {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 60px;
+  padding: 20px;
+}
+.third {
+  display: flex;
+  text-align: center;
+  margin: 20px;
+}
+.a {
+  padding: 30px;
+}
+.b {
+  padding: 30px;
+}
+.c {
+  padding: 30px;
+}
+.forth {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
