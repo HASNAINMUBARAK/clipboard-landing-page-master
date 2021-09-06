@@ -12,6 +12,16 @@ font-family: monospace;
 .buttons {
   margin: 20px;
 }
+button {
+  cursor: pointer;
+}
+.ios:hover {
+  opacity: 50%;
+}
+.mac:hover {
+  opacity: 50%;
+
+}
 p {
   opacity: 50%;
 }
@@ -48,4 +58,32 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+a {
+  text-decoration: none;
+}
+.fifth {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+  padding: 30px;
+  background-color: aliceblue;
+}
+.y {
+  display: flex;
+}
+.y1 {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+.y2 {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+.y3 {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
 }
