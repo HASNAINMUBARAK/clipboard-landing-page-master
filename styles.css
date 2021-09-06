@@ -76,7 +76,7 @@ a {
   background-color: aliceblue;
 }
 a:hover {
-color:hsl(171, 66%, 44%);
+  color: hsl(171, 66%, 44%);
 }
 .y {
   display: flex;
@@ -96,7 +96,7 @@ color:hsl(171, 66%, 44%);
   flex-direction: column;
   margin: 20px;
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 375px) {
   .container {
     display: flex;
     flex-direction: column;
@@ -104,6 +104,7 @@ color:hsl(171, 66%, 44%);
     align-items: center;
     text-align: center;
     font-size: 11px;
+    margin: 5px;
   }
   .buttons {
     display: flex;
